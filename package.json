@@ -1,0 +1,35 @@
+{
+  "name": "7-02",
+  "version": "1.0.0",
+  "description": "DZ2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "npx eslint index.js",
+    "fix": "npx eslint index.js --fix",
+    "prettier": "npx prettier index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DmitryLeonov186/JS-DZ-.git"
+  },
+  "keywords": [
+    "test",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Dmitry Leonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryLeonov186/JS-DZ-/issues"
+  },
+  "homepage": "https://github.com/DmitryLeonov186/JS-DZ-#readme",
+  "devDependencies": {
+    "beautify": "^0.0.8",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.5.3"
+  }
+}
